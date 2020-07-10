@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id":"http://grotto-networking.com/example2.schema.json",
+    "title": "JSON validation check",
+    "description": "Member Signup check by Manasi Rajiv Weginwar",
+    "type":"object",
+    "properties": 
+    {
+        "FirstName": 
+        {
+             "title": "FirstName",
+             "type": "string",
+             "description": "Users first name",
+             "maxLength": 20
+        },
+        "LastName": 
+        {
+             "title": "LastName",
+             "type": "string",
+             "description": "Users last name",
+             "maxLength": 25
+        },
+        "Email ID": 
+        {
+             "title": "Emailid",
+             "type": "string",
+             "description": "Users emailid",
+             "format": "email"
+        },
+         "Password":
+        {
+          "title": "Password",
+          "type":["string","integer"],
+          "description": "User Password",
+          "minLength":6
+        }, 
+         "Context":
+        {
+          "title": "Why site seems intreseted",
+          "type":["string","integer"],
+          "description": "User Password",
+          "maxLength" : 30
+        },
+         "Experience":
+        {
+          "title": "Was signup smooth and what do you want to experince in club",
+          "type":["string","integer"],
+          "enum":["Jungle Safari","Yoga","Cultural Evening","Camp Fire"],
+          "description": "Club experience"
+         }
+    },
+    "required": ["FirstName","LastName","Email ID","Password"],
+     "additionalProperties": false
+}
+    

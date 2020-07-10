@@ -1,0 +1,128 @@
+body{
+    background-image: url('/background.565aafb9.jpg');
+}
+
+.ul {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  list-style-type: none;
+  flex-shrink: 1;
+  max-width: 35vh;
+  align-self: flex-start;
+  justify-content: space-between;
+  border: 5px solid lightcoral;
+  padding: 5px;
+  margin: 5px; 
+  border-radius: 25px;
+  background-color: aliceblue;
+}
+    
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.active{
+    border-radius: 25px;
+    text-decoration: none;
+    background: lightcoral;
+}
+
+#luxury{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    border-radius: 25px;
+    background-color: #FAEAEC;
+    width : "1100";
+    border: 5px solid coral;
+    padding: 5px;
+    margin: 5px;    
+}
+.h2{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    color: palegoldenrod;
+    text-align: center;
+}
+.h3 {
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    color: palevioletred;
+    text-align: center;
+}
+.p {
+
+    font-family: 'Maven Pro', sans-serif;
+    color: black;
+}
+
+.picture{
+    border-radius: 25px;
+    text-align: center;
+}
+
+.f{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    color: antiquewhite;
+    font-size: 15px;
+}
+
+span.em{
+   font-size: 25px;
+   content: "\1F405";
+}
+
+
+.list .atag {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+ border-radius: 25px;
+}
+
+.list .atag:hover {
+  background-color: lightcoral;
+}
+
+#email,#pwd{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.membership{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  padding: 10px;
+}
+
+#firstname,#emailid,#context,#skill,label,#apply{ grid-column-start: 3; color: lightcoral; width: 300px; border-radius: 10px;}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+       
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
